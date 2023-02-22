@@ -37,6 +37,7 @@
     center: [53.15, -6.9],
     zoom: 10
     });
+    ('#map').height($(window).height()-50+'px');
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',{
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'

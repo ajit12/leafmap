@@ -4,10 +4,12 @@
 <!-- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
   var heat = L.heatLayer(heat_points, {radius:30,blur:2,opacity:0.8,maxZoom:11}).addTo(map);
 -->
-<!-- Leaflet CSS File  -->
+<!-- Leaflet CSS File  
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
      crossorigin=""/>
+-->
+<link rel="stylesheet" href="leaflet.css">
 <link rel="stylesheet" href="MyMapStyles.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />     
 </head>
@@ -15,12 +17,16 @@
 <body>
 <!-- <script src="http://cdn.leafletjs.com/leaflet-0.7.3/Leaflet"></script>
 -->
-  <!-- Leaflet Javascript File  -->
-  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  <!-- Leaflet Javascript File 
+   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
       crossorigin="">
-  </script>
+  </script>  >> Contents copied to leaflet.js local file and used below
   <script src="http://Leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+  >> Contents from above link copied to local file leaflet-heat.js and used below
+  -->
+  <script src="leaflet.js"></script>
+  <script src="leaflet-heat.js"></script>
   <script src="leaflet.ajax.min.js"></script>
   <script src="heat_points.js"></script>
 

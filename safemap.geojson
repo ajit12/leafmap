@@ -1,0 +1,14 @@
+var SafetStyle = {
+    "fillColor": "#CC9933", 
+    "color": "#000000",
+    "weight": 2, 
+    "fillOpacity": 0.2
+    };
+
+var pointStyle = {
+    radius: 2,
+    fillColor: "#000000",
+    color: "#000000",
+    weight: 1,
+    fillOpacity: 1
+    };
